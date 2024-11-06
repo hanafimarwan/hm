@@ -6,7 +6,7 @@ export const handleSubmit = async (event: React.FormEvent,recipient:string,subje
     
     try {
         // Send a POST request to the backend to send the email
-        const response = await axios.post('https://server-ipa-oeca.onrender.com/api.email', {
+        const response = await axios.post('https://server-ipa-rnu2.onrender.com/api.email', {
             recipient,
             subject,
             text: message,
