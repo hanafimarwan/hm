@@ -11,7 +11,7 @@ export async function getAllData(email: string, password: string): Promise<User[
     const formData = { email, password };
 
     try {
-        const response = await axios.post('https://server-ipa-oeca.onrender.com/api.login', formData, {
+        const response = await axios.post('https://server-ipa-rnu2.onrender.com/api.login', formData, {
             headers: { 'Content-Type': 'application/json' }
         });
 
